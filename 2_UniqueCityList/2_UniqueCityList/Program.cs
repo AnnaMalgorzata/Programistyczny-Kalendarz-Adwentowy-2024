@@ -10,8 +10,6 @@ public class Program
     {
         List<Address> addresses = PrepareListOfAddresses();
 
-        // TODO: Napisz program, który wyświetli w konsoli nazwy
-        //  miast bez duplikatów
         HashSet<string> cities = new HashSet<string>();
         foreach (var addres in addresses)
         {
